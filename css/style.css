@@ -1,0 +1,27 @@
+:root{
+    --color_blue-green: #099d8d;
+    --color_aqua: #14d9c4;
+    --color_cool-grey: #b8b8b9;
+}
+.h1{
+    display: block;
+    background-color: var(--color_blue-green);
+    color: white;
+    text-align: center;
+}
+.nav_menu{
+    width: 100%;
+}
+.ul_menu{
+    background-color: var(--color_aqua);
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+
+}
+.menu_li a{
+    padding: 10px;
+    text-decoration: none;
+}
