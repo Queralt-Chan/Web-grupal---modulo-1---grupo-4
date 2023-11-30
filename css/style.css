@@ -2,6 +2,12 @@
     --color_blue-green: #099d8d;
     --color_aqua: #14d9c4;
     --color_cool-grey: #b8b8b9;
+    --color_dark-grey: #54585a;
+    --padding_mobile: 15px;
+}
+
+body{
+    padding: var(--padding_mobile);
 }
 .h1{
     display: block;
@@ -31,46 +37,81 @@
    background-color:#ffffff;
    text-align: center;    
 }
-.team{
+.team_a{
     display: block;
-    color: #14d9c4;
+    color: var(--color_aqua);
     text-align: center;
+
+}
+.team_b{
+    display: block;
+    color: var(--color_blue-green);
+    text-align: center;
+
 
 }
 .text1 {
     box-sizing: border-box;
     display: block;
-    color: #54585a;
+    color: var(--color_dark-grey);
     text-align: center;
   
 }
 .section2{
   
     display: block;
-    background-color: #b8b8b9;  
+    background-color: var(--color_cool-grey);  
 }
 .strenght {
     display: block;
     text-align: center;
-    color: #099d8d;
+    color: var(--color_blue-green);
   
 }
 .text2{
     display: block;
     text-align: center;
-    color: #54585a;
+    color: var(--color_dark-grey);
     column-fill: auto;
 }
 .text3 {
     display: block;
     text-align: center;
-    color:#54585a;
+    color:var(--color_dark-grey);
     column-fill: auto;
 
 }
 .weakness {
     display: block;
     text-align: center;
-    color:#099d8d;
+    color:var(--color_blue-green);
 
+}
+
+.text1 img{
+    max-width: 180px;
+    border-radius: 4px;
+    border: solid 5px var(--color_dark-grey);
+}
+
+.text1 h3{
+    display: block;
+    text-align: center;
+    column-fill: auto;
+    font-size: 20px;
+    color: black;
+}
+
+.contact i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--color_blue-green);
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
