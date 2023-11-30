@@ -25,3 +25,52 @@
     padding: 10px;
     text-decoration: none;
 }
+.section1{
+  
+   display: block;
+   background-color:#ffffff;
+   text-align: center;    
+}
+.azul{
+    display: block;
+    color: #14d9c4;
+    text-align: center;
+
+}
+.text1 {
+    box-sizing: border-box;
+    display: block;
+    color: #54585a;
+    text-align: center;
+  
+}
+.section2{
+  
+    display: block;
+    background-color: #b8b8b9;  
+}
+.fortalezas {
+    display: block;
+    text-align: center;
+    color: #099d8d;
+  
+}
+.text2{
+    display: block;
+    text-align: center;
+    color: #54585a;
+    column-fill: auto;
+}
+.text3 {
+    display: block;
+    text-align: center;
+    color:#54585a;
+    column-fill: auto;
+
+}
+.debilidades {
+    display: block;
+    text-align: center;
+    color:#099d8d;
+
+}
