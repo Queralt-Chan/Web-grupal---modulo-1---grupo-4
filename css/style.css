@@ -110,7 +110,7 @@ body{
 .text1 img{
     max-width: 180px;
     border-radius: 4px;
-    border: solid 5px var(--color_dark-grey);
+    border: solid 5px var(--color_cool-grey);
 }
 
 .text1 h3{
@@ -190,3 +190,6 @@ body{
     
 }
 
+.contact a {
+    color: var(--color_blue-green);
+}
