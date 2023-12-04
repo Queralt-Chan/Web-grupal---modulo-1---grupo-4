@@ -116,6 +116,7 @@
   
 }
 .section2{
+    flex-direction: column;
     display: block;
     background-color: var(--color_cool-grey);  
 }
@@ -235,6 +236,6 @@
 .imageheader {
     box-sizing: border-box;
     display: block;
-    width: auto;
+    max-height: 100%; 
 }
 
