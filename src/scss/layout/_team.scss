@@ -1,11 +1,20 @@
 /*Pasar a SASS*/
 .section1{
-    display: block;
-    background-color:#ffffff;
-    text-align: center;    
+    
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Rubix;
+  padding: 15px;
+  width: 100%;
+  height: 60px;    
  }
+
  .team_a{
-     display: block;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      font-family: Rubix;
      text-transform: uppercase;
      color: var(--color_aqua);
