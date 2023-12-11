@@ -1,0 +1,43 @@
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  font-family: OpenSans;
+  background-color: $color_white;
+  padding-top: 20px;
+  border-top: solid 1px $color_cool-grey;
+
+  &_ul{
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+  }
+
+  &_ul a{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: $color_cool-grey;
+  }
+}
+
+.adalab_logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: center;
+  justify-content: space-between;
+  width: 25%;
+  
+}

@@ -1,0 +1,52 @@
+.header{
+    position: relative;
+    background-image: $supercodes_imagen;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+  
+    &_title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Rubik;
+      font-size: 20px;
+      padding: 15px;
+      width: 100%;
+      height: 50px;
+      background-color: $color_blue-green;
+      color: $color_white;
+      text-transform: uppercase;
+      opacity: 0.90;
+    }
+  }
+  
+  .menu{
+    width: 100%;
+  
+    &_ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      line-height: center;
+      width: 100%;
+      height: 40px;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: space-evenly;
+      background-color: $color_aqua;
+      opacity: 0.90;
+  
+      &_li a{      
+        letter-spacing: normal;
+        padding: 6px;
+        line-height: 2;
+        text-decoration: none;
+        font-family: Rubik;
+        font-size: 15px;
+        color: $color_white;
+        text-transform: uppercase;
+      }
+    }
+  }
