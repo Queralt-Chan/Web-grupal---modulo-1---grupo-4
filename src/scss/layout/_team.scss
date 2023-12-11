@@ -12,7 +12,7 @@
  .team_a{
      display: flex;
      flex-direction: column;
-     align-items: center;
+     align-content: center;
      font-family: Rubix;
      text-transform: uppercase;
      color: var(--color_aqua);
@@ -34,7 +34,7 @@
    
  }
  .section2{
-     display: block;
+     display: flex;
      background-color: var(--color_cool-grey); 
      width: 320px;
      height: 504px;
@@ -42,24 +42,18 @@
      background-color: var(--white); 
  }
  .strenght {
-      display: flex;
-     flex-direction: column;
+     display: inline-block;
      text-align: center;
      font-family: Rubix;
      color: var(--color_blue-green);
    
  }
- .text2{
-     display: block;
-     text-align: center;
-     font-family: OpenSans;
-     color: var(--color_dark-grey);
-     column-fill: auto;
- }
- .text3 {
-     display: block;
-     text-align: center;
-     font-family: OpenSans;
+ 
+
+ .post {
+    display: inline-block;
+    flex-direction: column;
+    align-content: center;
      color:var(--color_dark-grey);
      column-fill: auto;
  
