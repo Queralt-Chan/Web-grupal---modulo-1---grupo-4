@@ -1,7 +1,7 @@
 /*Pasar a SASS*/
-.section1{
+.sectionteam{
     
-  background-color:#ffffff;
+  background-color:aqua;
   display: flex;
   
  }
@@ -13,7 +13,7 @@
      font-family: Rubix;
      text-transform: uppercase;
      color: var(--color_aqua);
-     text-align: center;
+ 
  
  }
  
@@ -30,7 +30,7 @@
      background-color: var(--white);
    
  }
- .section2{
+ .sectionarticles{
      display: flex;
      background-color: var(--color_cool-grey); 
      width: 320px;
@@ -40,6 +40,7 @@
  }
  .bloc {
      display: inline-block;
+     align-content: center;
      width: 50%;
      font-family: Rubix;
      color: var(--white)
