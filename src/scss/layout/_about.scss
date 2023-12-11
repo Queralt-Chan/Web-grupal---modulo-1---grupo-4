@@ -1,60 +1,160 @@
 /*Pasar a SASS*/
-.section1{
+
+.main_section_about-us {
     display: block;
-    background-color:#ffffff;
-    text-align: center;    
- }
- .team_a{
-     display: block;
-     font-family: Rubix;
-     text-transform: uppercase;
-     color: var(--color_aqua);
-     text-align: center;
- 
- }
- .team_b{
-     display: block;
-     font-family: Rubix;
-     text-transform: uppercase;
-     color: var(--color_blue-green);
-     text-align: center;
-     text-transform: uppercase;
-     margin: 30px 62.5px 30px 64.5px;
- font-size: 24px;
- 
- }
- 
- .avatar{
-     margin-bottom: 50px;
- }
- 
- .text1 {
-     box-sizing: border-box;
-     display: block;
-     font-family: OpenSans;
-     color: var(--color_dark-grey);
-     text-align: center;
-     
-   
- }
- .section2{
-     display: block;
-     background-color: var(--color_cool-grey);  
- }
- .strenght {
-     display: block;
-     text-align: center;
-     font-family: Rubix;
-     color: var(--color_blue-green);
-   
- }
- .text2{
+    background-color: $color_white;
+    margin: 15px;
+
+    @media (min-width: 768px) {
+        margin: 44px;
+    }
+
+    @media (min-width: 1200px) {
+        margin: 45px 138px 60px;
+    }
+}
+
+.main_section_about-h1 {
+    display: block;
+    font-family: $font_rubik;
+    text-transform: uppercase;
+    color: $color_blue-green;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 62.5px 30px 64.5px;
+    font-size: 24px;
+
+}
+
+.main_section_about-div {
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    display: block;
+    font-family: $font_opensans;
+    color: $color_dark-grey;
+    text-align: left;
+}
+
+
+.left {
+    @media (min-width: 768px) {
+
+        & .main_section_about-div-article {
+            display: flex;
+
+        }
+
+        & .main_section_about-div-article div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 20px;
+        }
+
+        & .main_section_about-div-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-left: 50px;
+
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .main_section_about-div-article img {
+            max-width: 278px;
+            border-radius: 4px;
+            border: solid 5px $color_cool-grey;
+        }
+    }
+}
+
+.right {
+    @media (min-width: 768px) {
+
+        & .main_section_about-div-article {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        & .main_section_about-div-article div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-right: 20px;
+        }
+
+        & .main_section_about-div-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 90px;
+
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .main_section_about-div-article img {
+            max-width: 278px;
+            border-radius: 4px;
+            border: solid 5px $color_cool-grey;
+        }
+    }
+}
+
+.main_section_about-div-article img {
+    max-width: 180px;
+    border-radius: 4px;
+    border: solid 5px $color_cool-grey;
+}
+
+.main_section_about-div-article h3 {
+    display: block;
+    text-align: center;
+    column-fill: auto;
+    font-size: 20px;
+    color: $color_black;
+}
+
+.main_section_about-div-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_section_about-div-nav i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color_blue-green;
+    padding: 10px;
+}
+
+.main_section_about-div-nav a {
+    color: $color_blue-green;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-decoration: none;
+    color: $color_blue-green;
+}
+
+.icon::after {
+    content: "·";
+}
+
+/*.text2{
      display: block;
      text-align: center;
      font-family: OpenSans;
      color: var(--color_dark-grey);
      column-fill: auto;
  }
+
  .text3 {
      display: block;
      text-align: center;
@@ -62,53 +162,4 @@
      color:var(--color_dark-grey);
      column-fill: auto;
  
- }
- .weakness {
-     display: block;
-     font-family: Rubix;
-     text-align: center;
-     color:var(--color_blue-green);
- 
- }
- 
- .text1 img{
-     max-width: 180px;
-     border-radius: 4px;
-     border: solid 5px var(--color_cool-grey);
- }
- 
- .text1 h3{
-     display: block;
-     text-align: center;
-     column-fill: auto;
-     font-size: 20px;
-     color: black;
- }
- 
- .contact{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
- }
- .contact i{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     color: var(--color_blue-green);
-     padding: 10px;
- }
- 
- .contact a {
-     color: var(--color_blue-green);
- }
- .icon {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     align-items: baseline;
-     text-decoration: none;
- }
- 
- .icon::after{
-  content: "·";
- }
+ }*/
