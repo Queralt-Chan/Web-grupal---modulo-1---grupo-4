@@ -4,14 +4,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
   font-family: OpenSans;
   background-color: $color_white;
   padding-top: 20px;
   border-top: solid 1px $color_cool-grey;
 
-  &_ul{
+  &_ul {
     padding: 20px;
     align-items: center;
     text-decoration: none;
@@ -19,7 +17,7 @@
     
   }
 
-  &_ul a{
+  &_ul_a {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,12 +30,11 @@
   }
 }
 
-.adalab_logo{
+.div_logo{
   display: flex;
   flex-direction: row;
   align-items: center;
   line-height: center;
   justify-content: space-between;
   width: 25%;
-  
 }
